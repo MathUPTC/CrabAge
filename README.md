@@ -1,6 +1,9 @@
 # Analisis Predictivo de la Edad del Cangrejo 🦀 
 
+## Comprensión del Negocio
 Para un criador comercial de cangrejos, conocer la edad correcta del cangrejo les ayuda a decidir si cosechar los cangrejos y cuándo. Más allá de cierta edad, hay un crecimiento insignificante en las características físicas del cangrejo y, por lo tanto, es importante cronometrar la cosecha para reducir el costo y aumentar las ganancias.
+
+## Descripción de los Datos
 
 Estos Datos fueron extraidos de la plataforma kaggle [Dataset](https://www.kaggle.com/code/umutcindiloglu/crab-age-prediction).
 
@@ -18,7 +21,7 @@ Columnas:
     •  Shell Weight: Peso de la cáscara del cangrejo (en onzas; 1 libra = 16 onzas).
     •  Age: Edad del cangrejo (en meses).
     
-Objetivos:
+## Objetivos:
     
    + El primer objetivo es identificar cuáles de las variables disponibles (sexo, longitud, diámetro, altura, peso total, peso sin cáscara, peso de las vísceras y peso de la cáscara) tienen una correlación más fuerte con la edad del cangrejo.
    > Al identificar las variables más influyentes en la determinación de la edad, podemos enfocarnos en medir y registrar estas variables de manera más precisa y eficiente, reduciendo costos operativos.
@@ -35,7 +38,7 @@ Objetivos:
 * **Exploración de datos:** Análisis exploratorio de los datos para identificar patrones y relaciones.
 * **Modelado:** Entrenamiento de diferentes modelos de machine learning (regresión lineal, random forest, etc.).
 * **Evaluación:** Evaluación de los modelos utilizando métricas como RMSE y R².
-* **Deployment:** Desarrollo de una aplicación web utilizando Flask para realizar predicciones.
+* **Deployment:** 
 
 ## Herramientas
 * Python
