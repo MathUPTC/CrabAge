@@ -1,4 +1,4 @@
-# Analisis Predictivo de la Edad del Cangrejo 🦀 
+# Analisis Predictivo de la Edad del Cangrejo 🦀
 
 ## Comprensión del Negocio
 
@@ -21,18 +21,17 @@ Columnas:
     •  Viscera Weight: Peso de las vísceras del cangrejo (en onzas; 1 libra = 16 onzas).
     •  Shell Weight: Peso de la cáscara del cangrejo (en onzas; 1 libra = 16 onzas).
     •  Age: Edad del cangrejo (en meses).
-    
-## Objetivos:
-    
-+ El primer objetivo es identificar cuáles de las variables disponibles (sexo, longitud, diámetro, altura, peso total, peso sin cáscara, peso de las vísceras y peso de la cáscara) tienen una correlación más fuerte con la edad del cangrejo.
-   
+
+## Objetivos
+
+   • El primer objetivo es identificar cuáles de las variables disponibles (sexo, longitud, diámetro, altura, peso total, peso sin cáscara, peso de las vísceras y peso de la cáscara) tienen una correlación más fuerte con la edad del cangrejo.
+
    > Al identificar las variables más influyentes en la determinación de la edad, podemos enfocarnos en medir y registrar estas variables de manera más precisa y eficiente, reduciendo costos operativos.
-    
-+ El segundo objetivo es desarrollar un modelo de machine learning que permita predecir la edad de un cangrejo en función de sus características físicas.
+
+   • El segundo objetivo es desarrollar un modelo de machine learning que permita predecir la edad de un cangrejo en función de sus características físicas.
 
    > Un modelo preciso permitirá a los criadores tomar decisiones más informadas sobre cuándo cosechar los cangrejos, maximizando así sus ganancias.
-    
-    
+
 ## Metodología
 
 * **Recopilación de datos:** Se utilizará el conjunto de datos de Kaggle "crab-age-prediction".
@@ -40,21 +39,23 @@ Columnas:
 * **Exploración de datos:** Análisis exploratorio de los datos para identificar patrones y relaciones.
 * **Modelado:** Entrenamiento de diferentes modelos de machine learning (regresión lineal, random forest, etc.).
 * **Evaluación:** Evaluación de los modelos utilizando métricas como RMSE y R².
-* **Deployment:** 
+* **Deployment:**
 
 ## Herramientas
+
 * Python
 * Pandas
 * NumPy
 * Scikit-learn
 
-
 ## Cronograma
+
 | Tarea | Fecha de inicio | Fecha de finalización |
 |-------|-----------------|-----------------------|
 | Analisis Exploratorio   | 26/12/2024 | 28/12/2024|
 | ...| ... | ... |
 
 ## Equipo
-* **[Diego Sanchez]:** 
-* **[Andres Martinez]:** 
+
+* **[Diego Sanchez]:**
+* **[Andres Martinez]:**
