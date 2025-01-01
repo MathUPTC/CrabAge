@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+.env
+.venv
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data
+data/raw/
+data/processed/
+data/interim/
+
+# IDE
+.vscode/
+.idea/
+
+# Distribution
+dist/
+build/
+*.egg-info/
