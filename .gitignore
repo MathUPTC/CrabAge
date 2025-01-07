@@ -8,7 +8,7 @@ venv/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-
+.ipynb_checkpoints/*
 # Data
 data/raw/
 data/processed/
