@@ -22,3 +22,21 @@ data/interim/
 dist/
 build/
 *.egg-info/
+
+# Ignorar carpetas generadas automáticamente
+src/tuproyecto.egg-info/
+src/visualization/__pycache__/
+
+# Ignorar datos intermedios y procesados
+data/interim/
+data/processed/
+data/raw/
+
+# Ignorar configuraciones locales
+config/
+
+# Ignorar archivos temporales
+*.pyc
+*.pyo
+*.tmp
+*.log
