@@ -1,1 +1,42 @@
-.ipynb_checkpoints*
+# Python
+__pycache__/
+*.py[cod]
+*.class
+.env
+.venv
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.ipynb_checkpoints/*
+# Data
+data/raw/
+data/processed/
+data/interim/
+
+# IDE
+.vscode/
+.idea/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Ignorar carpetas generadas automáticamente
+src/tuproyecto.egg-info/
+src/visualization/__pycache__/
+
+# Ignorar datos intermedios y procesados
+data/interim/
+data/processed/
+data/raw/
+
+# Ignorar configuraciones locales
+config/
+
+# Ignorar archivos temporales
+*.pyc
+*.pyo
+*.tmp
+*.log
