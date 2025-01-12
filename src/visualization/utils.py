@@ -31,3 +31,31 @@ def histogram_box(data,label):
     ax[1].set_title(f"Boxplot de {variable}")
     
     plt.show()
+
+# curvas de entrenamiento
+def history_curves(history):
+    plt.figure(figsize=(13,5))
+
+    train_loss = history.history['loss']
+    val_loss = history.history['val_loss']
+    epochs = np.arange(1,len(train_loss)+1)
+    # graph loss
+    plt.subplot(1,2,1)
+    plt.plot(epochs,train_loss,'ro-',label="train loss")
+    plt.plot(epochs,val_loss,'bo-',label="valid loss")
+    plt.legend()
+    plt.title('train and validation Loss')
+    plt.xlabel('Epochs')
+    plt.ylabel('Loss')
+
+    train_r2 = history.history['r2_score']
+    val_r2 = history.history['val_r2_score']
+    # graph mae
+    plt.subplot(1,2,2)
+    plt.plot(epochs,train_r2,'ro-',label="train R2score")
+    plt.plot(epochs,val_r2 ,'bo-',label="valid R2score")
+    plt.legend()
+    plt.title('train and validation R2score')
+    plt.xlabel('Epochs')
+    plt.ylabel('R2score')
+    plt.show()
