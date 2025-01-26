@@ -80,6 +80,7 @@ Columnas:
 
 En nuestro análisis exploratorio, descubrimos patrones sorprendentes que podrían ayudarte a entender
  mejor a estos fascinantes crustáceos. Por ejemplo, la siguiente visualización muestra cómo el Sexo del cagrejo puede ser identificado apartir de una cierta edad:
+ 
 ![boxplot de edad](Docs/images/boxplot.png)
 
 💡 Si quieres explorar más hallazgos como este y ver cómo llegamos a estas conclusiones, te invitamos a revisar 
