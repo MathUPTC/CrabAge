@@ -1,4 +1,4 @@
-# Analisis Predictivo de la Edad del Cangrejo 🦀
+# Análisis Predictivo de la Edad del Cangrejo 🦀
 
 ## Comprensión del Negocio
 
