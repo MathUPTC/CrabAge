@@ -57,6 +57,8 @@ Columnas:
 * Pandas
 * NumPy
 * Scikit-learn
+* Feature-Engine
+* Tensorflow
 
 ## Cronograma
 
@@ -65,13 +67,18 @@ Columnas:
 | Analisis Exploratorio   | 28/12/2024 | 10/01/2025|Notebooks/eda_data.ipynb|
 | Modelado| 10/01/2025 | 25/01/2025 | Notebooks/modelado.ipynb|
 
-## Equipo
+## Equipo 
 
 * **[Diego Sanchez]:**
 * **[Andres Martinez]:**
+  
+---
+# ✨ Resultados
 
-## Resultados
+## 🟢 Análisis Exploratorio
+Descripción o contenido relacionado con el análisis exploratorio.
 
+## 🔶 Modelado
 Después de probar diferentes algoritmos de regresión, los mejores resultados se obtuvieron con:
 
 
@@ -79,6 +86,7 @@ Después de probar diferentes algoritmos de regresión, los mejores resultados s
 |-------|-----------------|-----------------------|
 | XGBoost  | 0.60 | 0.57|
 | Red Neuronal Artificial (ANN)| 0.59 | 0.56 |
-    
+
+> El modelo XGBoost logra explicar el 57% de la variabilidad presente en los datos, lo que representa una capacidad significativa para identificar patrones clave y generar predicciones fiables. Este nivel de precisión puede traducirse en mejores decisiones informadas para el productor, permitiéndole optimizar recursos, reducir incertidumbre y enfocar estrategias en áreas críticas para el negocio.   
 
 Estos modelos demostraron ser los más prometedores para la predicción de la edad del cangrejo, logrando un balance adecuado entre precisión y generalización. Sin embargo, existe espacio para futuras mejoras mediante el ajuste de hiperparámetros más exhaustivo ,técnicas de ensamblado o cambiar el enfoque a un problema de clasificación realizando discretización.
