@@ -76,7 +76,14 @@ Columnas:
 # ✨ Resultados
 
 ## 🟢 Análisis Exploratorio
-Descripción o contenido relacionado con el análisis exploratorio.
+🦀¿Sabías que la edad de un cangrejo puede estar estrechamente relacionada con características como su longitud, diámetro y peso?
+
+En nuestro análisis exploratorio, descubrimos patrones sorprendentes que podrían ayudarte a entender
+ mejor a estos fascinantes crustáceos. Por ejemplo, la siguiente visualización muestra cómo el Sexo del cagrejo puede ser identificado apartir de una cierta edad años:
+![boxplot de edad](Docs/images/boxplot.png)
+
+💡 Si quieres explorar más hallazgos como este y ver cómo llegamos a estas conclusiones, te invitamos a revisar 
+el notebook completo de análisis exploratorio aquí.
 
 ## 🔶 Modelado
 Después de probar diferentes algoritmos de regresión, los mejores resultados se obtuvieron con:
