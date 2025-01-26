@@ -3,6 +3,7 @@
 ## Comprensión del Negocio
 
 Para un criador comercial de cangrejos, conocer la edad correcta del cangrejo les ayuda a decidir si cosechar los cangrejos y cuándo. Más allá de cierta edad, hay un crecimiento insignificante en las características físicas del cangrejo y, por lo tanto, es importante cronometrar la cosecha para reducir el costo y aumentar las ganancias.
+<img src="Docs/images/crab.png" alt="imagen de crab" style="max-width: 100%; height: auto;" />
 
 ## Descripción de los Datos
 
@@ -50,12 +51,25 @@ Columnas:
 
 ## Cronograma
 
-| Tarea | Fecha de inicio | Fecha de finalización |
-|-------|-----------------|-----------------------|
-| Analisis Exploratorio   | 26/12/2024 | 28/12/2024|
-| ...| ... | ... |
+| Tarea | Fecha de inicio | Fecha de finalización | Path|
+|-------|-----------------|-----------------------|-----|
+| Analisis Exploratorio   | 28/12/2024 | 10/01/2025|Notebooks/eda_data.ipynb|
+| Modelado| 10/01/2025 | 25/01/2025 | Notebooks/modelado.ipynb|
 
 ## Equipo
 
 * **[Diego Sanchez]:**
 * **[Andres Martinez]:**
+
+## Resultados
+
+Después de probar diferentes algoritmos de regresión, los mejores resultados se obtuvieron con:
+
+
+| Modelos | R^2 Entrenamiento | R^2 Validacion |
+|-------|-----------------|-----------------------|
+| XGBoost  | 0.60 | 0.57|
+| Red Neuronal Artificial (ANN)| 0.59 | 0.56 |
+    
+
+Estos modelos demostraron ser los más prometedores para la predicción de la edad del cangrejo, logrando un balance adecuado entre precisión y generalización. Sin embargo, existe espacio para futuras mejoras mediante el ajuste de hiperparámetros más exhaustivo ,técnicas de ensamblado o cambiar el enfoque a un problema de clasificación realizando discretización.
