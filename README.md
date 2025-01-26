@@ -6,8 +6,9 @@ Para un criador comercial de cangrejos, conocer la edad correcta del cangrejo le
 cangrejos y cuándo. Más allá de cierta edad, hay un crecimiento insignificante en las características físicas del 
 cangrejo y, por lo tanto, es importante cronometrar la cosecha para reducir el costo y aumentar las ganancias.
 <div align="center">
-<img src="Docs/images/crab.png" alt="imagen de crab" width="900" height="500" />
+<img src="Docs/images/crab.png" alt="imagen de crab" width="850" height="450" />
 </div>
+
 ## Descripción de los Datos
 
 Estos Datos fueron extraidos de la plataforma kaggle [Dataset](https://www.kaggle.com/code/umutcindiloglu/crab-age-prediction).
