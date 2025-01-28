@@ -11,7 +11,7 @@ cangrejo y, por lo tanto, es importante cronometrar la cosecha para reducir el c
 
 ## Descripción de los Datos
 
-Estos Datos fueron extraidos de la plataforma kaggle [Dataset](https://www.kaggle.com/code/umutcindiloglu/crab-age-prediction).
+Estos Datos fueron extraidos de la plataforma kaggle [Dataset](https://www.kaggle.com/code/umutcindiloglu/crab-age-prediction) con 3893 Observaciones.
 
 Este conjunto de datos contiene información sobre diferentes características de los cangrejos. Las variables incluidas son:
 
@@ -87,6 +87,17 @@ En nuestro análisis exploratorio, descubrimos patrones sorprendentes que podrí
 el notebook completo de análisis exploratorio aquí. `Notebooks/eda_data.ipynb`
 
 ## 🔶 Modelado
+
+1.	División de los datos:
+   
+Se realizó una división de los datos en un 80 % para entrenamiento y un 20 % para validación, asegurando que la distribución de la variable objetivo fuera consistente en ambos conjuntos.
+
+3.	Preprocesamiento:
+	*	Codificación: La variable categórica Sex fue transformada utilizando la técnica de One-Hot Encoding, para representar cada categoría como columnas binarias.
+	*	Escalado: Las variables numéricas fueron escaladas para garantizar una mejor convergencia y desempeño de los modelos que son sensibles a magnitudes diferentes, como Support Vector Regression (SVR) o Redes Neuronales.
+
+4.	Evaluación de algoritmos:
+
 Después de probar diferentes algoritmos de regresión, los mejores resultados se obtuvieron con:
 
 
